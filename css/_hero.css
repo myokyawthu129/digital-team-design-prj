@@ -1,0 +1,13 @@
+.hero {
+  height: 100vh;
+  background: url("images/home-bg-slideshow1.jpg");
+  background-position: top center;
+  background-size: cover; }
+
+.hero-content {
+  text-align: center; }
+  .hero-content h1, .hero-content h4 {
+    color: white; }
+  .hero-content hr {
+    width: 240px;
+    border-color: #ccc; }

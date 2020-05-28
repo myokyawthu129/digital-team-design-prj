@@ -1,0 +1,51 @@
+.team-member{
+   background: rgba(0,0,0,0.6);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   opacity: 0;
+   transition: all 0.4s ease-in-out;
+   margin: 0 auto;
+   h3, h4{
+      font-weight: 550;
+   }
+   ul li{
+      text-decoration: none;
+      list-style-type: none;
+      display: inline;
+      padding-left: 10px;
+      padding-right: 40px;
+      span{
+         color: white;
+         font-size: 25px;
+         transition: all 0.1s ease-in-out;
+      }
+      span:hover{
+         color: $primary-color;
+      }
+   }
+}
+.team-member:hover{
+   background: rgba(0,0,0,0.6);
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   opacity: 1;
+   h4{
+      color: $primary-color;
+   }
+}
